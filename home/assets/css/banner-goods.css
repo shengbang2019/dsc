@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    width: 1199px;
+    height: 1270px;
+    margin: 0 auto;
+}
+.top{
+    height:700px;
+    background-color: #fd1b4d;
+    overflow: hidden;
+}
+.logo{
+    height: 150px;
+    background-color: #fff;
+}
+.img{
+    overflow: hidden;
+    float: left;
+}
+.img img{
+    float: left;
+    margin-left:10px;
+    margin-top: 8px;
+}
+.img .img-left{
+    margin-left: 5px;
+}
+.img .img-right{
+    margin-right: -5px;
+}
+.xia{
+    height: 350px;
+}
+.title{
+    height: 57px;
+}
+.title h1{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 900;
+    float: left;
+    margin-left: 10px;
+}
+.title h2{
+    font-size: 17px;
+    color: #fff20f;
+    font-weight: 900;
+    float: left;
+    margin-left:350px;
+    margin-top:5px;
+}
+.button{
+    float: left;
+    width: 135px;
+    height: 23px;
+    border: 1px solid #fff;
+    border-radius:20px;
+    color: #fff;
+    text-align: center;
+    line-height: 23px;
+    margin-left:320px;
+    margin-top: 5px;
+}
+.liebiao{
+    width: 1200px;
+    height:340px;
+    overflow: hidden;
+}
+.xq{
+    width: 228px;
+    height:290px;
+    background-color: #fff;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+    transition:margin-top 0.6s;
+}
+.xq:hover{
+    margin-top:-3px;
+    
+}
+.xq img{
+    width:200px;
+    height:200px;
+    margin: 10px;
+}
+.wz1{
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    margin:0 22px;
+}
+.wz2{
+    font-size: 14px;
+    color: red;
+    margin-left: 24px;
+}
+.wz3{
+    font-size: 9px;
+    color: gray;
+    text-decoration:line-through;
+}
+.bottom{
+    width:1199px;
+    height: 586px;
+}
+.bottom img{
+    width:1299px;
+    height: 586px;
+    margin-left: -100px;
+    margin-top: 20px;
+    position: relative;
+}
+.layer{
+    width: 1000px;
+    height:230px;
+    overflow: hidden;
+    position: absolute;
+    top:710px;
+    left:540px;
+}
+.layer li{
+    float: left;
+    list-style: none;
+}
+.layer img{
+    width: 190px;
+    height:220px;
+    margin-left: 10px;
+}
+.layer2{
+    position: relative;
+    top:-378px;
+    left:188px;
+}
+.layer3{
+    position: relative;
+    top:-388px;
+    left:188px;
+}
+.layer3 img{
+    width: 240px;
+    height: 105px;
+}
