@@ -1,11 +1,11 @@
-.text-none{
+.banner-box .text-none{
     text-decoration: none;
 }
 .banner-box{
     width: 100%;
     height: 522px;
 }
-.banner-img{
+.banner-box .banner-img{
     width: 1623px;
     height: 522px;
     /* min-height:500px; */
@@ -19,7 +19,7 @@
     -o-background-size: cover;
     overflow: hidden;
 }
-.banner{
+.banner-box .banner{
     width: 1200px;
     height: 522px;
     /* -------------------------    更改   ------------------------- */
@@ -28,88 +28,52 @@
 
     
 }
-/* ------------- 上导航 ---------------- */
-.banner-top{
-    width: 1200px;
-    height: 40px;
-    border-bottom: 1px solid #b4424c;
-    background-color: #fff;
-}
-.nav>li{
-    float: left;
-    list-style: none;
-    margin-left: 38px;
-    line-height: 40px;
-}
-.nav a{
-    font-size: 15px;
-    color: #000;
-}
-.nav a:hover{
-    color: #fe4154;
-}
-.nav>li:nth-child(1){
-    width: 230px;
-    height: 40px;
-    background-color: #f42424;
-    line-height: 40px;
-    text-align: center;
-    margin-left: 0;
-}
-.nav>li:nth-child(1) a{
-    font-size: 18px;
-    font-weight: 530;
-    color:#fff ;
-}
-.nav>li:nth-child(2) a{
-    color: #fe4154;
-}
 /* -------------- 下 --------------- */
-.banner-bottom{
+.banner-box .banner-bottom{
     width: 1200px;
     height: 502px;
     overflow: hidden;
 }
 /* ----------------- 左导航 -------------- */
-.banner-left{
+.banner-box .banner-left{
     width: 230px;
     height: 502px;
     background-color: #333;
     float: left;
 
 }
-.banner-left-div{
+.banner-box .banner-left-div{
     width: 232px;
     height: 71.7px;
     background-color: #333;
 }
-.banner-left-div>div{
+.banner-box .banner-left-div>div{
     float: left;
 }
-.banner-left-div p{
+.banner-box .banner-left-div p{
     color: #fff;
     line-height: 22px;
     font-size: 13px;
 }
-.banner-left_left{
+.banner-box .banner-left_left{
     width: 40px;
     height: 71.7px;
 }
-.banner-left_left>img{
+.banner-box .banner-left_left>img{
     margin:1px 0 0 10px;
 }
-.banner-left_right{
+.banner-box .banner-left_right{
     width: 192px;
     height: 71.7px;
 }
-.banner-left_right p:nth-child(2){
+.banner-box .banner-left_right p:nth-child(2){
     color: #ccc;
 }
-.banner-left_right p:hover{
+.banner-box .banner-left_right p:hover{
     color:red;
 }
 /* ---------------- 中间 ------------- */
-.banner-center{
+.banner-box .banner-center{
     width: 760px;
     height: 502px;
     float: left;
@@ -117,7 +81,7 @@
     background-position:center center;
     background-size: 760px 502px;
 }
-.banner-corner{
+.banner-box .banner-corner{
     width: 65px;
     height: 20px;
     background-color: #b97e9a;
@@ -125,7 +89,7 @@
     overflow: hidden;
     margin: 455px 0 0 380px;
 }
-.banner-corner>div{
+.banner-box .banner-corner>div{
     width: 13px;
     height: 13px;
     background-color: #d8b8c7;
@@ -133,41 +97,41 @@
     float: left;
     margin:3px 0 0 5px;
 }
-.banner-corner>div:nth-child(1){
+.banner-box .banner-corner>div:nth-child(1){
     background-color: #fff;
     margin-left:8px ;
 }
 /* ---------------- 右 ------------- */
-.banner-right{
+.banner-box .banner-right{
     width: 210px;
     height: 502px;
     float: left;
     background-color: #fff;
 }
-.banner-login{
+.banner-box .banner-login{
     width: 210px;
     height: 205px;
     overflow: hidden;
 }
-.banner-login-touxiang{
+.banner-box .banner-login-touxiang{
     width: 80px;
     height: 80px;
     margin:25px auto;
 
 }
-.banner-login-touxaing>img{
+.banner-box .banner-login-touxaing>img{
     width: 80px;
     height: 80px;
 
 }
-.banner-login>h3{
+.banner-box .banner-login>h3{
     color: #000;
     font-size: 15px;
     font-weight: 0;
     line-height: 15px;
     text-align: center;
 }
-.btn-box{
+.banner-box .btn-box{
     width:100%;
     height:40px;
     margin:0 !important;
@@ -175,61 +139,61 @@
     justify-content: space-around;
     align-items: center;
 }
-.btn-box button{
+.banner-box .btn-box button{
     width: 80px;
     height: 25px;
     border-radius:12.5px;
     border:0;
     box-shadow: 3px 3px 10px 0px #888;
 }
-.btn-left{
+.banner-box .btn-left{
     background-color:#fff;
 }
-.btn-right{
+.banner-box .btn-right{
     background-color:red;;
 }
-.banner-login_loginbar{
+.banner-box .banner-login_loginbar{
     width: 80px;
     height: 25px;
     float: left;
     border-radius: 14.5px;
     margin-top: 15px;
 }
-.banner-login_loginbar>p{
+.banner-box .banner-login_loginbar>p{
     text-align: center;
     line-height: 25px;
 }
-.banner-login>div:nth-child(3){
+.banner-box .banner-login>div:nth-child(3){
     background-color: #fff;
     margin-left: 20px;
 }
-.banner-login>div:nth-child(4){
+.banner-box .banner-login>div:nth-child(4){
     background-color: #fc2425;
     margin-left: 10px;
 }
-.banner-login>div:nth-child(3) a{
+.banner-box .banner-login>div:nth-child(3) a{
     display: inline-block;
     width: 80px;
     height: 25px;
     color: #fc2425;
 }
-.banner-login>div:nth-child(4) a{
+.banner-box .banner-login>div:nth-child(4) a{
     color: #fff;
 }
-.banner-login>div:nth-child(3):hover{
+.banner-box .banner-login>div:nth-child(3):hover{
     background-color: #fc2425;
 }
-.banner-login>div:nth-child(3) a:hover{
+.banner-box .banner-login>div:nth-child(3) a:hover{
     color: #fff;
 }
 
 /* ------------------------------- */
-.banner-right_center{
+.banner-box .banner-right_center{
     width: 210px;
     height: 150px;
     overflow: hidden;
 }
-.banner-right_title1{
+.banner-box .banner-right_title1{
     width: 50px;
     height: 15px;
     border-right: 1px solid #cdcdcd;
@@ -239,10 +203,10 @@
     margin-left: 10px;
     float: left;
 }
-.banner-right_title1>a{
+.banner-box .banner-right_title1>a{
     color: #fc2425;
 }
-.banner-right_title2{
+.banner-box .banner-right_title2{
     width: 49px;
     height: 15px;
     text-align: center;
@@ -250,59 +214,59 @@
     font-size: 13px;
     float: left;
 }
-.banner-right_title2>a{
+.banner-box .banner-right_title2>a{
     color: #000;
 }
-.banner-right_title2>a:hover{
+.banner-box .banner-right_title2>a:hover{
     color: #fc2425;
 }
-.banner-right_center>p{
+.banner-box .banner-right_center>p{
     color: #000;
     font-size: 11px;
     line-height: 24px;
     text-indent: 20px;
 }
-.banner-right_center>p:nth-child(4){
+.banner-box .banner-right_center>p:nth-child(4){
     margin-top: 10px;
 }
-.banner-right_center>p:hover{
+.banner-box .banner-right_center>p:hover{
     color: #fc2425;
 }
-.banner-right_center>h3{
+.banner-box .banner-right_center>h3{
     color: #000;
     font-size: 12px;
     text-indent: 20px;
     margin-top: 20px;
 }
 /* ------------------------------------- */
-.banner-right_bottom{
+.banner-box .banner-right_bottom{
     width: 210px;
     height: 147px;
     overflow: hidden;
 }
-.banner-menu{
+.banner-box .banner-menu{
     width: 69px;
     height: 73px;
     float: left;
     border-top: 1px solid #cdcdcd;
     border-right:1px solid #cdcdcd;
 }
-.banner-menu img{
+.banner-box .banner-menu img{
     width: 40px;
     height: 40px;
     margin:5px 0 0 14px;
 }
-.banner-menu p{
+.banner-box .banner-menu p{
     color: #000;
     text-align: center;
     font-size: 11px;
 }
-.banner-menu P:hover{
+.banner-box .banner-menu P:hover{
     color: #fc2425;
 }
-.banner-right_bottom>div:nth-child(3){
+.banner-box .banner-right_bottom>div:nth-child(3){
     border-right: 0;
 }
-.banner-right_bottom>div:nth-child(6){
+.banner-box .banner-right_bottom>div:nth-child(6){
     border-right: 0;
 }
