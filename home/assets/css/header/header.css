@@ -2,14 +2,14 @@ header{
     width: 100%;
     height: 126px;
 }
-.header-box{
+header .header-box{
     width: 1200px;
     height: 126px;
     /* background-color: red; */
     margin: 0 auto;
     overflow: hidden;
 }
-.header-left{
+header .header-left{
     width: 232px;
     height: 126px;
     box-sizing: border-box;
@@ -18,64 +18,64 @@ header{
     float: left;
     /* box-shadow: 0px 1px 10px 2px rgb(109, 106, 106); */
 }
-.logo{
+header .logo{
     display: block;
     width: 159px;
     height: 57px;
     margin: 34.5px auto;
 
 }
-.header-right{
+header .header-right{
     width: 968px;
     height: 126px;
     /* background-color: green; */
     float: left;
 }
-.head-top{
+header .head-top{
     width: 968px;
     height: 30px;
     background-color: #eee;
     overflow: hidden;
 }
-.site-left{
+header .site-left{
     overflow: hidden;
     float: left;
 }
-.site-left img{
+header .site-left img{
     width: 20px;
     height: 25px;
 }
-.site-left>li{
+header .site-left>li{
     float: left;
     line-height: 30px;
     margin-left: 25px;
 }
-.site-left>li:hover a{
+header .site-left>li:hover a{
     color: red;
 }
-.site-left a{
+header .site-left a{
     color: #8c8c8c;
 }
-.site-left>.qin{
+header .site-left>.qin{
     margin-left: 0px;
 }
-.site-left .se{
+header .site-left .se{
     color: red;
 }
-.site-right{
+header .site-right{
     height: 30px;
     /* width: 426px; */
     float: right;
     overflow: hidden;
 }
-.site-right>li{
+header .site-right>li{
     float: left;
     line-height: 30px;
 }
-.site-right a{
+header .site-right a{
     color: #8c8c8c;
 }
-.site-right li+li::before{
+header .site-right li+li::before{
     content: "|";
     color:#ccc;
     padding-right: 12px ;
@@ -86,33 +86,33 @@ header{
     content: "";
     display: inline-block;
 } */
-.tu-biao{
+header .tu-biao{
     width: 15px;
     height: 30px;
     display: inline-block;
     transform: rotate(180deg);
     line-height: 30px;
 }
-.site-right>li:hover a{
+header .site-right>li:hover a{
     color: red;
 }
-.head-bottom{
+header .head-bottom{
     width: 968px;
     height: 96px;
     overflow: hidden;
 }
-.bot-left{
+header .bot-left{
     width: 600px;
     height: 96px;
     float: left;
 } 
-.biao-dan{
+header .biao-dan{
     width: 600px;
     height: 34px;
     margin-top: 20px;
     margin-left: 58px;
 }
-.sou-suo{
+header .sou-suo{
     width: 378px;
     height: 14px;
     padding: 8px;
@@ -120,7 +120,7 @@ header{
     outline: 0;
     font-size: 12px;
 }
-.btn{
+header .btn{
     border: 0;
     width: 70px;
     height: 34px;
@@ -130,36 +130,36 @@ header{
     cursor: pointer;
     outline: 0;
 }
-.biao-dan .btn-1{
+header .biao-dan .btn-1{
     margin-left: -5px;
     background-color: #f42424;
 }
-.btn-2{
+header .btn-2{
     background-color: #b31919;
 }
-.sou-xia{
+header .sou-xia{
     width: 600px;
     height: 30px;
     margin-left: 58px;
     margin-top: 5px;
     overflow: hidden;
 }
-.sou-xia>li{
+header .sou-xia>li{
     float: left;
     margin-right: 10px;
 }
-.sou-xia a{
+header .sou-xia a{
     color: #999;
 }
-.sou-xia>li:hover a{
+header .sou-xia>li:hover a{
     color: red;
 }
-.bot-right{
+header .bot-right{
     width: 300px;
     height: 96px;
     float: right;
 }
-.botr-box{
+header .botr-box{
     width: 178px;
     height: 33px;
     margin-top: 20px;
@@ -167,29 +167,29 @@ header{
     border: 1px solid #d2d2d2;
     overflow: hidden;
 }
-.botr-box li{
+header .botr-box li{
     float: left;
     margin-left: 10px;
 
 }
-.botr-box a{
+header .botr-box a{
     color:red;
 }
-.botr-box img{
+header .botr-box img{
     width: 27px;
     height: 27px;
     margin-top: 2px;
 }
-.botr-text a{
+header .botr-text a{
     line-height: 33px;
 }
-.yuan{
+header .yuan{
     width: 20px;
     height: 20px;
     background-color: red;
     border-radius: 50%;
 }
-.yuan a{
+header .yuan a{
     color: #fff;
     margin-left: 5px;
     line-height: 20px;

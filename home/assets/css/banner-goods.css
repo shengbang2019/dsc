@@ -1,50 +1,46 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-.banner{
+.banner-goods{
     width: 1199px;
-    height: 1270px;
+    height: 1300px;
     margin: 0 auto;
 }
-.top{
+.banner-goods .top{
     height:700px;
     background-color: #fd1b4d;
     overflow: hidden;
 }
-.logo{
+.banner-goods .logo{
     height: 150px;
     background-color: #fff;
 }
-.img{
+.banner-goods .img{
     overflow: hidden;
     float: left;
 }
-.img img{
+.banner-goods .img img{
     float: left;
     margin-left:10px;
     margin-top: 8px;
 }
-.img .img-left{
+.banner-goods .img .img-left{
     margin-left: 5px;
 }
-.img .img-right{
+.banner-goods .img .img-right{
     margin-right: -5px;
 }
-.xia{
+.banner-goods .xia{
     height: 350px;
 }
-.title{
+.banner-goods .title{
     height: 57px;
 }
-.title h1{
+.banner-goods .title h1{
     font-size: 24px;
     color: #fff;
     font-weight: 900;
     float: left;
     margin-left: 10px;
 }
-.title h2{
+.banner-goods .title h2{
     font-size: 17px;
     color: #fff20f;
     font-weight: 900;
@@ -52,7 +48,7 @@
     margin-left:350px;
     margin-top:5px;
 }
-.button{
+.banner-goods .button{
     float: left;
     width: 135px;
     height: 23px;
@@ -64,12 +60,12 @@
     margin-left:320px;
     margin-top: 5px;
 }
-.liebiao{
+.banner-goods .liebiao{
     width: 1200px;
     height:340px;
     overflow: hidden;
 }
-.xq{
+.banner-goods .xq{
     width: 228px;
     height:290px;
     background-color: #fff;
@@ -78,70 +74,70 @@
     margin-top: 10px;
     transition:margin-top 0.6s;
 }
-.xq:hover{
+.banner-goods .xq:hover{
     margin-top:-3px;
     
 }
-.xq img{
+.banner-goods .xq img{
     width:200px;
     height:200px;
     margin: 10px;
 }
-.wz1{
+.banner-goods .wz1{
     font-size: 12px;
     color: #000;
     text-align: center;
     margin:0 22px;
 }
-.wz2{
+.banner-goods .wz2{
     font-size: 14px;
     color: red;
     margin-left: 24px;
 }
-.wz3{
+.banner-goods .wz3{
     font-size: 9px;
     color: gray;
     text-decoration:line-through;
 }
-.bottom{
+.banner-goods .bottom{
     width:1199px;
     height: 586px;
+    position: relative;
+    border-top:1px solid #fff;
+    top:20px;
 }
-.bottom img{
+.banner-goods .bottom>img{
     width:1299px;
     height: 586px;
-    margin-left: -100px;
-    margin-top: 20px;
-    position: relative;
-}
-.layer{
-    width: 1000px;
-    height:230px;
-    overflow: hidden;
     position: absolute;
-    top:710px;
-    left:540px;
+    left:-100px;
+    z-index: -100;
 }
-.layer li{
+.banner-goods .layer{
+    width: 1000px;
+    margin:10px 10px 0 200px;
+    overflow: hidden;
+}
+.banner-goods .layer li{
     float: left;
     list-style: none;
 }
-.layer img{
+.banner-goods .layer1 li{
     width: 190px;
-    height:220px;
-    margin-left: 10px;
+    height:210px;
+    margin-right:10px;
 }
-.layer2{
-    position: relative;
-    top:-378px;
-    left:188px;
+.banner-goods .layer1 img{
+    width: 190px;
+    height: 210px;
 }
-.layer3{
-    position: relative;
-    top:-388px;
-    left:188px;
+.banner-goods .layer2 li{
+    width: 240px;
+    height:105px;
+    margin-right:10px;
+    height:105px;
 }
-.layer3 img{
+.banner-goods .layer2 img{
     width: 240px;
     height: 105px;
 }
