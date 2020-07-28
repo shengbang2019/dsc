@@ -2,9 +2,14 @@ header{
     width: 100%;
     height: 126px;
 }
+header .header-top{
+    width: 100%;
+    height: 30px;
+    background-color: #eee;
+}
 header .header-box{
     width: 1200px;
-    height: 126px;
+    height: 156px;
     /* background-color: red; */
     margin: 0 auto;
     overflow: hidden;
@@ -32,9 +37,10 @@ header .header-right{
     float: left;
 }
 header .head-top{
-    width: 968px;
+    width: 1200px;
     height: 30px;
     background-color: #eee;
+    margin: 0 auto;
     overflow: hidden;
 }
 header .site-left{
@@ -48,7 +54,7 @@ header .site-left img{
 header .site-left>li{
     float: left;
     line-height: 30px;
-    margin-left: 25px;
+    margin-right: 25px;
 }
 header .site-left>li:hover a{
     color: red;
@@ -57,7 +63,7 @@ header .site-left a{
     color: #8c8c8c;
 }
 header .site-left>.qin{
-    margin-left: 0px;
+    margin-left: -26px;
 }
 header .site-left .se{
     color: red;
@@ -115,7 +121,7 @@ header .biao-dan{
 header .sou-suo{
     width: 378px;
     height: 14px;
-    padding: 8px;
+    padding: 9px;
     border: 2px solid #f42424;
     outline: 0;
     font-size: 12px;
@@ -123,7 +129,7 @@ header .sou-suo{
 header .btn{
     border: 0;
     width: 70px;
-    height: 34px;
+    height: 36px;
     line-height: 34px;
     color: #fff;
     font-size: 14px;
