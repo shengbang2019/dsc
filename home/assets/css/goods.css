@@ -1,0 +1,127 @@
+.xlh .goods{
+    width: 100%;
+    height: 1995px;
+}
+.xlh .goods .goods-top{
+    width: 1200px;
+    height: 350px;
+    background-color: #f5f6fa;
+    margin:0 auto;
+    overflow: hidden;
+}
+.xlh .goods .hezi{
+    width: 393px;
+    height: 170px;
+}
+.xlh .goods .hezi1{
+    background-color: #eca335;
+}
+.xlh .goods .hezi a img{
+    width: 170px;
+    height: 170px;
+    text-decoration: none;
+    margin-left: 214px;
+}
+.xlh .goods .hezi li{
+    list-style: none;
+}
+.xlh .goods .hezi a{
+    text-decoration: none;
+}
+.xlh .goods .abc{
+    margin-left: 36px;
+    margin-top: -124px;
+    width: 69px;
+    color: white;
+}
+.xlh .goods .cba{
+    margin-left: 36px;
+    margin-top: 6px;
+    width: 145px;
+    color: white;
+}
+.xlh .goods .hezi li{
+    margin-left: 36px;
+    margin-top: 9px;
+    font-size: 14px;
+}
+.xlh .goods .hezi a{
+    color: white;
+}
+.xlh .goods .hezi a p{
+    color: #FFF;
+    /* width: 160px; */
+    z-index: 1;
+    font-weight:900;
+    margin-left: 36px;
+    margin-top: 9px;
+    font-size: 20px;
+}
+.xlh .goods .hezi2{
+    background-color: #d3423b;
+    margin-top: 10px;
+}
+.xlh .goods .hezi3{
+    background-color:#3869c4;
+    float: left;
+    margin-left: 403px;
+    margin-top: -350px;
+}
+.xlh .goods .hezi4{
+    background-color: #d14d93;
+    float: left;
+    margin-left: 403px;
+    margin-top: -170px;
+}
+.xlh .goods .hezi5{
+    background-color: #28adac;
+    float: left;
+    margin-left: 806px;
+    margin-top: -350px;
+}
+.xlh .goods .hezi6{
+    background-color: #6847c7;
+    float: left;
+    margin-left: 806px;
+    margin-top: -170px;
+}
+.xlh .goods-bottom{
+    width: 1200px;
+    height:1535px;
+    margin:0 auto;
+    margin-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.xlh .goods .kuai{
+    width: 231px;
+    height: 297px;
+    border-color:#fff ;
+    border:1px solid #d2d2d2;
+    overflow: hidden;
+}
+.xlh .goods .kuai a img{
+    width: 210px;
+    height: 210px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.xlh .goods .kuai li{
+    list-style: none;
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 13px;
+}
+.xlh .goods .kuai p{
+    color: red;
+    margin-left: 10px;
+    margin-top: 16px;
+    font-size: 12px;
+}
+.xlh .goods .kuai a{
+    text-decoration: none;
+    color: #555555;
+    
+}
