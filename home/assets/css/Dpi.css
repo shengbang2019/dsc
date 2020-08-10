@@ -1,0 +1,497 @@
+.banner{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: 10;
+}
+.banner-img>img{
+    width: 100%;
+    height: 400px;
+}
+.banner-box{
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.banner-left{
+    width: 230px;
+    height: 400px;
+    background-color: red;
+    float: left;
+}
+.banner-left>li{
+    width: 230px;
+    height: 80px;
+    background-color: #2984EB;
+    border-top: 1px dashed #ffffff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.banner-left>li:hover{
+    background-color: #64a1eb;
+}
+.banner-left p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;   
+}
+.banner-left span{
+    color: #ffffff;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+.banner-left>.xu-nall{
+    border-width: 0;
+}
+.banner-right{
+    display: block;
+    float: left;
+    margin-left: 748px;
+    margin-top: 46.5px;
+}
+.banner-right>img{
+    width: 222px;
+    height: 307px;
+}
+.container{
+    width: 1200px;
+    height: 4700px;
+    margin: 0 auto;
+}
+.con-top{
+    width: 1200px;
+    /* height: 354px; */
+}
+.con-top-box{
+    width: 1200px;
+    height: 50px;
+    border-bottom: 2px solid #434D55;
+    overflow: hidden;
+}
+.contop-left{
+    float: left;
+}
+.contop-left>h2{
+    font-size: 21px;
+    line-height: 46px;
+    font-weight: normal;
+}
+.contop-right{
+    float: right;
+    overflow: hidden;
+}
+.contop-right>li{
+    float: left;
+    line-height: 46px;
+    color: #000000;
+}
+.contop-right a{
+    font-size: 14px;
+    color: black;
+}
+.contop-right>.conteshu a{
+    color: #006BBC;
+    font-weight: 700;
+}
+.contop-right li+li::before{
+    content: "|";
+    color:#ccc;
+    padding-right: 12px ;
+    padding-left: 12px ;
+
+}
+.contop-right>li:hover a{
+    color: #006BBC;
+    font-weight: 700;
+}
+.nei-bottom{
+    width: 1200px;
+    height: 293px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.lie{
+    width: 200px;
+    height: 293px;
+    border-left: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    box-sizing: border-box;
+    float: left;
+}
+.p-img{
+    width: 159px;
+    height: 159px;
+    margin: 15px auto;
+}
+.lie img{
+    width: 159px;
+    height: 159px;
+}
+.p-text{
+    width: 159px;
+    height: 24px;
+    margin: 0 auto;
+}
+.p-text>p{
+    color: red;
+    text-align: center;
+    font-size: 16px;
+}
+.p-name{
+    width: 159px;
+    height: 38px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.p-name>a{
+    display: block;
+    width: 159px;
+    height: 38px;
+    font-size: 12px;
+    color: #000000;
+}
+.p-name>a:hover{
+    color: red;
+}
+.xiang-qing{
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: red;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+.biao6{
+    border-right: 1px solid #dedede;
+}
+.nei-center{
+    width: 1200px;
+    height: 354px;
+    margin: 10px auto;
+}
+.yi-text{
+    width: 1200px;
+    height: 42px;
+}
+.yi-text>h2{
+    font-size: 21px;
+    font-weight: normal;
+}
+.center-xia{
+    margin-top: 12px;
+    height: 300px;
+    overflow: hidden;
+}
+.guang-tu{
+    float: left;
+}
+.gao1{
+    width: 350px;
+    height: 300px;
+}
+.gao1 img{
+    width: 350px;
+    height: 300px;
+}
+.gao2{
+    width: 400px;
+    height: 300px;
+} 
+.gao2-img{
+    width: 400px;
+    height: 150px;
+} 
+.gao2-img img{
+    width: 400px;
+    height: 150px;
+}
+.gao3{
+    width: 450px;
+    height: 300px;
+}
+.tu-biao3{
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+}
+.tu-biao3>li{
+    width: 149px;
+    height: 76px;
+    float: left;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+}
+.tu-biao3 img{
+    width: 150px;
+    height: 76px;
+}
+.nei-bottom1{
+    width: 1200px;
+    height: 701px;
+    margin: 0 auto;
+}
+.nei-bot1{
+    width: 1200px;
+    height: 50px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.nei-bot1>h2{
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 50px;
+    float: left;
+}
+.nei-nav{
+    width: 440px;
+    height: 50px;
+    float: right;
+    overflow: hidden;
+}
+.nei-nav>li{
+    width: 78px;
+    height: 40px;
+    border: 1px solid #dedede;
+    float: left;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+.nei-nav a{
+    display: block;
+    text-align: center;
+    line-height: 42px;
+    font-size: 12px;
+    color: #000000;
+}
+.nei-nav>.te-shu{
+    border: 1px solid blue;
+}
+.nei-nav>.te-shu a{
+    color: blue;
+}
+.nei-bot2{
+    width: 1200px;
+    height: 460px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.neibiao{
+    float: left;
+}
+.biao-1{
+    width: 280px;
+    height: 460px;
+    background-color: yellow;
+    position: relative;
+}
+.biao-1 img{
+    width: 280px;
+    height: 460px;
+}
+.xing-hao{
+    width: 210px;
+    height: 120px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.xing-hao>li{
+    width: 90px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.xing-hao a{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #ffffff;
+}
+.xing-hao>li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.biao-2{
+    width: 380px;
+    height: 458px;
+    border: 1px solid #dedede;
+}
+.biao-2 img{
+    width: 280px;
+    height: 280px;
+    display: block;
+    margin: 20px auto;
+}
+.wei-lu{
+    width: 280px;
+    height: 87px;
+    background-color: #F5F9FF;
+    margin: 0 auto;
+    padding: 4px;
+}
+.wei-lu>.jie-s{
+    font-size: 13px;
+    color: #000000;
+    float: left;
+}
+.wei-lu>.jie-s:hover{
+    color: red;
+}
+.wei-lu>p{
+    color: red;
+    font-size: 21px;
+    margin-top: 10px;
+    float: left;
+}
+.cha-k{
+    display: block;
+    width: 110px;
+    height: 36px;
+    float: right;
+    background-color: red;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.biao-3{
+    width: 538px;
+    height: 460px;
+    overflow: hidden;
+}
+.tu-box{
+    width: 179px;
+    height: 230px;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    float: left;
+}
+.tu-box img{
+    width: 143px;
+    height: 143px;
+    display: block;
+    margin: 8px auto;
+}
+.tu-box a{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #000000;
+
+}
+.tu-box p{
+    text-align: center;
+    margin-top: 8px;
+    color: red;
+}
+.di-bu1{
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.di-bu1>li{
+    width: 120px;
+    height: 70px;
+    float: left;
+    margin-left: 15px;
+}
+.di-bu1 img{
+    display: block;
+    width: 91px;
+    height: 42px;
+    margin: 14px auto;
+}
+.di-bu2{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.di-bu2 img{
+    width: 1200px;
+    height: 100px;
+}
+.container-bottom{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+.zuih-top{
+    width: 1200px;
+    height: 42px;
+
+}
+.zuih-top>h2{
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 42px;
+}
+.zuih-bottom{
+    width: 1200px;
+    height: 350px;
+    border: 1px  dashed #D1D1D1;
+    overflow: hidden;
+}
+.zui-tiem{
+    width: 199px;
+    height: 350px;
+    float: left;
+    border-right: 1px dashed #D1D1D1;
+}
+.zui1-img{
+    display: block;
+    width: 158px;
+    height: 158px;
+    margin: 10px auto;
+}
+.zui1-img>img{
+    width: 158px;
+    height: 158px;
+}
+.jia-q{
+    text-align: center;
+    color: red;
+}
+.zui-text{
+    display: block;
+    width: 158px;
+    margin: 5px auto;
+    font-size: 12px;
+    color: #000000;
+}
+.zui-text:hover{
+    color: red;
+}
+.zui-xq{
+    display: block;
+    width: 158px;
+    height: 30px;
+    border: 1px solid red;
+    color: red;
+    text-align: center;
+    line-height: 28px;
+    margin: 10px auto;
+    font-size: 12px;
+}
+.zui-xq:hover{
+     background-color: red;
+     color: #ffffff;
+}
